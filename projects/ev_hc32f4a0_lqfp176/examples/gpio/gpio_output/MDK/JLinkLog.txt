@@ -1,0 +1,118 @@
+TB250 061:601.191   SEGGER J-Link V6.62d Log File
+TB250 061:601.244   DLL Compiled: Mar  2 2020 09:22:41
+TB250 061:601.250   Logging started @ 2026-01-09 05:40
+TB250 061:601.256 JLINK_SetWarnOutHandler(...)
+TB250 061:601.260 - 0.006ms
+TB250 061:601.266 JLINK_OpenEx(...)
+TB250 061:603.225   Firmware: J-Link OB-STM32F072-CortexM compiled Jan  7 2019 14:09:37
+TB250 061:603.426   Decompressing FW timestamp took 162 us
+TB250 061:611.703   Hardware: V1.00
+TB250 061:611.722   S/N: 4294967295
+TB250 061:611.733   OEM: SEGGER
+TB250 061:611.743   Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI
+TB250 061:614.661   TELNET listener socket opened on port 19021
+TB250 061:616.427   Device "CORTEX-M4" selected.
+TB250 061:617.301   WEBSRV Starting webserver
+TB250 061:617.435   WEBSRV Webserver running on local port 19080
+TB250 061:617.446 - 16.182ms returns "O.K."
+TB250 061:618.252 JLINK_GetEmuCaps()
+TB250 061:618.269 - 0.021ms returns 0xB8EA5A33
+TB250 061:618.286 JLINK_TIF_GetAvailable(...)
+TB250 061:619.001 - 0.724ms
+TB250 061:619.020 JLINK_SetErrorOutHandler(...)
+TB250 061:619.027 - 0.009ms
+TB250 061:619.044 JLINK_ExecCommand("ProjectFile = "D:\projects\Electronic\Software\app\H32F4A0\HC32F4A0_DDL_Rev2.4.0\projects\ev_hc32f4a0_lqfp176\examples\gpio\gpio_output\MDK\JLinkSettings.ini"", ...). 
+TB250 061:619.442   Device "CORTEX-M4" selected.
+TB250 061:619.658 - 0.620ms returns 0x00
+TB250 061:619.670 JLINK_ExecCommand("Device = HC32F4A0SITB", ...). 
+TB250 061:620.162   Device "CORTEX-M4" selected.
+TB250 061:620.442 - 0.767ms returns 0x00
+TB250 061:620.452 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+TB250 061:620.473 - 0.018ms returns 0x01
+TB250 061:620.500 JLINK_GetHardwareVersion()
+TB250 061:620.508 - 0.013ms returns 0x2710
+TB250 061:620.521 JLINK_GetDLLVersion()  returns 66204
+TB250 061:620.537 JLINK_GetFirmwareString(...)
+TB250 061:620.546 - 0.012ms
+TB250 061:620.559 JLINK_GetDLLVersion()  returns 66204
+TB250 061:620.570 JLINK_GetCompileDateTime()
+TB250 061:620.578 - 0.010ms
+TB250 061:620.589 JLINK_GetFirmwareString(...)
+TB250 061:620.595 - 0.010ms
+TB250 061:620.604 JLINK_GetHardwareVersion()
+TB250 061:620.609 - 0.008ms returns 0x2710
+TB250 061:620.630 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+TB250 061:623.133 - 2.518ms returns 0x00
+TB250 061:623.184 JLINK_SetSpeed(5000)
+TB250 061:623.775 - 0.599ms
+TB250 061:638.261 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+TB250 061:638.345 - 0.089ms returns JLINKARM_RESET_TYPE_NORMAL
+TB250 061:638.388 JLINK_Reset()
+TB250 061:640.875   Found SW-DP with ID 0x2BA01477
+TB250 061:645.676   Old FW that does not support reading DPIDR via DAP jobs
+TB250 061:647.119   Unknown DP version. Assuming DPv0
+TB250 061:647.132   Scanning AP map to find all available APs
+TB250 061:648.678   AP[1]: Stopped AP scan as end of AP map has been reached
+TB250 061:648.689   AP[0]: AHB-AP (IDR: 0x24770011)
+TB250 061:648.696   Iterating through AP map to find AHB-AP to use
+TB250 061:650.783   AP[0]: Core found
+TB250 061:650.797   AP[0]: AHB-AP ROM base: 0xE00FF000
+TB250 061:651.907   CPUID register: 0x410FC241. Implementer code: 0x41 (ARM)
+TB250 061:651.936   Found Cortex-M4 r0p1, Little endian.
+TB250 061:754.221    -- Max. mem block: 0x00002340
+TB250 061:754.270    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+TB250 061:755.741    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+TB250 061:756.644    -- CPU_ReadMem(4 bytes @ 0xE0002000)
+TB250 061:757.621   FPUnit: 6 code (BP) slots and 2 literal slots
+TB250 061:757.632    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+TB250 061:758.483    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+TB250 061:759.382    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+TB250 061:760.251    -- CPU_WriteMem(4 bytes @ 0xE0001000)
+TB250 061:761.139    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+TB250 061:761.989    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+TB250 061:762.886    -- CPU_ReadMem(4 bytes @ 0xE000ED88)
+TB250 061:763.743    -- CPU_WriteMem(4 bytes @ 0xE000ED88)
+TB250 061:764.635   CoreSight components:
+TB250 061:764.655   ROMTbl[0] @ E00FF000
+TB250 061:764.667    -- CPU_ReadMem(64 bytes @ 0xE00FF000)
+TB250 061:766.321    -- CPU_ReadMem(32 bytes @ 0xE000EFE0)
+TB250 061:767.530   ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB00C SCS-M7
+TB250 061:767.548    -- CPU_ReadMem(32 bytes @ 0xE0001FE0)
+TB250 061:768.781   ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 003BB002 DWT
+TB250 061:768.804    -- CPU_ReadMem(32 bytes @ 0xE0002FE0)
+TB250 061:770.047   ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 002BB003 FPB
+TB250 061:770.074    -- CPU_ReadMem(32 bytes @ 0xE0000FE0)
+TB250 061:771.291   ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 003BB001 ITM
+TB250 061:771.327    -- CPU_ReadMem(32 bytes @ 0xE0040FE0)
+TB250 061:772.553   ROMTbl[0][4]: E0040000, CID: B105900D, PID: 000BB9A1 TPIU
+TB250 061:772.585    -- CPU_ReadMem(32 bytes @ 0xE0041FE0)
+TB250 061:773.770   ROMTbl[0][5]: E0041000, CID: B105900D, PID: 000BB925 ETM
+TB250 061:773.968   CPU is running
+TB250 061:773.991    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+TB250 061:774.909   CPU is running
+TB250 061:774.939    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+TB250 061:775.912   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+TB250 061:777.305   Reset: Reset device via AIRCR.SYSRESETREQ.
+TB250 061:777.317   CPU is running
+TB250 061:777.325    -- CPU_WriteMem(4 bytes @ 0xE000ED0C)
+TB250 061:832.064    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+TB250 061:832.989    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+TB250 061:833.876   CPU is running
+TB250 061:833.891    -- CPU_WriteMem(4 bytes @ 0xE000EDF0)
+TB250 061:834.787   CPU is running
+TB250 061:834.802    -- CPU_WriteMem(4 bytes @ 0xE000EDFC)
+TB250 061:841.399    -- CPU_ReadMem(4 bytes @ 0xE000EDF0)
+TB250 061:847.645    -- CPU_WriteMem(4 bytes @ 0xE0002000)
+TB250 061:848.615    -- CPU_ReadMem(4 bytes @ 0xE000EDFC)
+TB250 061:849.487    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+TB250 061:850.381 - 212.003ms
+TB250 061:850.482 JLINK_GetId()
+TB250 061:851.220 - 0.746ms   returns 0x2BA01477
+TB250 061:860.412 JLINK_GetFirmwareString(...)
+TB250 061:860.425 - 0.015ms
+TB250 069:965.299 JLINK_Close()
+TB250 069:966.136    -- CPU_ReadMem(4 bytes @ 0xE0001000)
+TB250 069:966.985    -- CPU_WriteMem(4 bytes @ 0xE0001004)
+TB250 069:987.245 - 21.967ms
+TB250 069:987.270   
+TB250 069:987.277   Closed
